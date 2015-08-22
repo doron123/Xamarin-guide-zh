@@ -1,19 +1,19 @@
-#°²×°
+#å®‰è£…
 
-`¿çÆ½Ì¨°²×°ºÍÉèÖÃÊµ¼ù¸ÅÊö` 
-
-
-###[Xamarin·À»ğÇ½ÅäÖÃËµÃ÷](01_01_Xamarin_Firewall_Configuration_Instructions.md)
-ÔÚÄúµÄ·À»ğÇ½ÖĞĞèÒªÌí¼ÓµÄ°×Ãûµ¥ÁĞ±í£¬ÒÔÔÊĞíXamarinÆ½Ì¨¿ÉÒÔÔÚ¹ó¹«Ë¾¹¤×÷¡£ 
+**è·¨å¹³å°å®‰è£…å’Œè®¾ç½®å®è·µ**
 
 
-###[Xamarin.iOS°²×°ÊÖ²á](#TODO)
-Xamarin.iOS ÔÚMacºÍWindowsÉÏµÄ°²×°ËµÃ÷¡£
+###[Xamariné˜²ç«å¢™é…ç½®è¯´æ˜](01_01_Xamarin_Firewall_Configuration_Instructions.md)
+åœ¨æ‚¨çš„é˜²ç«å¢™ä¸­éœ€è¦æ·»åŠ çš„ç™½åå•åˆ—è¡¨ï¼Œä»¥å…è®¸Xamarinå¹³å°å¯ä»¥åœ¨è´µå…¬å¸å·¥ä½œã€‚ 
 
 
-###[Xamarin.Android°²×°ÊÖ²á](#TODO)
-Xamarin.Android ÔÚ MacºÍWindowsÉÏµÄ°²×°ËµÃ÷¡£
+###[Xamarin.iOSå®‰è£…æ‰‹å†Œ](#TODO)
+Xamarin.iOS åœ¨Macå’ŒWindowsä¸Šçš„å®‰è£…è¯´æ˜ã€‚
 
 
-###[Ğ¶ÔØXamarin](01_02_Uninstalling_Xamarin.md)
-±¾ÎÄ½éÉÜÈçºÎ´ÓMac»òWindowsµçÄÔÉÏĞ¶ÔØXamarin Studio»òÆäËüXamarin²úÆ·¡£
+###[Xamarin.Androidå®‰è£…æ‰‹å†Œ](#TODO)
+Xamarin.Android åœ¨Macå’ŒWindowsä¸Šçš„å®‰è£…è¯´æ˜ã€‚
+
+
+###[å¸è½½Xamarin](01_02_Uninstalling_Xamarin.md)
+æœ¬æ–‡ä»‹ç»å¦‚ä½•ä»Macæˆ–Windowsç”µè„‘ä¸Šå¸è½½Xamarin Studioæˆ–å…¶å®ƒXamarinäº§å“ã€‚

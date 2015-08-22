@@ -1,59 +1,60 @@
-#Ğ¶ÔØXamarin
+#å¸è½½Xamarin
 
-`´Ó¼ÆËã»úĞ¶ÔØXamarin²úÆ·`
+*ä»è®¡ç®—æœºå¸è½½Xamarinäº§å“*
 
-ÕâÆªÎÄÕÂ½²½âÈçºÎ´ÓÒ»¸öMac»òWindows¼ÆËã»úÉÏĞ¶ÔØXamarin Studio»òÆäËûXamarin²úÆ·¡£
+æœ¬æ–‡è®²è§£å¦‚ä½•ä»ä¸€ä¸ªMacæˆ–Windowsè®¡ç®—æœºä¸Šå¸è½½Xamarin Studioæˆ–å…¶ä»–Xamarinäº§å“ã€‚
 
 
-##¸ÅÊö
-ÕâÀïÓĞºÜ¶àXamarin²úÆ·ÔÊĞíÄãÔÚÄãµÄMac»òWindows»úÆ÷ÉÏ¿ª·¢¿çÆ½Ì¨Ó¦ÓÃ³ÌĞò¡ª¡ª¡ªXamarin Studio¡¢Xamarin.Android¡¢Xamarin.iOSºÍÔÚMacÉÏµÄ: Xamarin.Mac¡£¿ÉÄÜÔÚÄ³Ğ©Çé¿öÏÂ±ØĞëĞ¶ÔØXamarin¹¤¾ß¼¯¡£±¾Ö¸ÄÏ¾ÍÊÇÎª°ïÄãÊµÏÖÕâ¸ö¶ø½¨¡£
+##æ¦‚è¿°
+è¿™é‡Œæœ‰å¾ˆå¤šXamarinäº§å“å…è®¸ä½ åœ¨Macæˆ–Windowsæœºå™¨ä¸Šå¼€å‘è·¨å¹³å°åº”ç”¨ç¨‹åºâ€•â€•â€•Xamarin Studioã€Xamarin.Androidã€Xamarin.iOSå’Œåœ¨Macä¸Šçš„Xamarin.Macã€‚å¯èƒ½åœ¨æŸäº›æƒ…å†µä¸‹å¿…é¡»å¸è½½Xamarinå·¥å…·é›†ã€‚æœ¬æŒ‡å—æŒ‡å¯¼ä½ å¦‚ä½•å®ç°ã€‚
 
-ÔÚ±¾Ö¸ÄÏÖĞÎÒÃÇ¿ÉÒÔ¿´¿´:
+åœ¨æœ¬æŒ‡å—ä¸­æˆ‘ä»¬å¯ä»¥äº†è§£:
 
-* 1.[Ğ¶ÔØ Xamarin Studio](#Uninstall-Xamarin-Studio)
-* 2.[Ğ¶ÔØ Mono](#Uninstall-Mono-SDK)
-* 3.[Ğ¶ÔØ Xamarin.Android](#Uninstall-Xamarin-Android)
-* 4.[Ğ¶ÔØ Xamarin.iOS](#Uninstall-Xamarin-iOS)
-* 5.[Ğ¶ÔØ Xamarin.Mac](#Uninstall-Xamarin-Mac)
-* 6.[´ÓWindowsĞ¶ÔØ Xamarin](#Uninstalling-Xamarin-on-Windows)
+* 1.[å¸è½½ Xamarin Studio](#Uninstall-Xamarin-Studio)
+* 2.[å¸è½½ Mono](#Uninstall-Mono-SDK)
+* 3.[å¸è½½ Xamarin.Android](#Uninstall-Xamarin-Android)
+* 4.[å¸è½½ Xamarin.iOS](#Uninstall-Xamarin-iOS)
+* 5.[å¸è½½ Xamarin.Mac](#Uninstall-Xamarin-Mac)
+* 6.[ä»Windowså¸è½½ Xamarin](#Uninstalling-Xamarin-on-Windows)
 
-Èç¹ûÄãÏëÊ¹ÓÃÍ¨ÓÃ°²×°³ÌĞòÖØ×°Xamarin£¬ÔÚ°²×°Ö®Ç°£¬½¨ÒéÄúÖØĞÂÆô¶¯¼ÆËã»ú¡£
+å¦‚æœä½ æƒ³ä½¿ç”¨é€šç”¨å®‰è£…ç¨‹åºé‡è£…Xamarinï¼Œåœ¨å®‰è£…ä¹‹å‰ï¼Œå»ºè®®æ‚¨å…ˆé‡å¯è®¡ç®—æœºã€‚
 
-##ÔÚMacÉÏĞ¶ÔØXamarin
-¿ÉÍ¨¹ıµ¼º½µ½ÏàÓ¦µÄÕÂ½ÚÁË½âĞ¶ÔØÃ¿¸öµ¥¶ÀµÄ²úÆ·, »òÈç¹ûÄãÏ£ÍûÍêÈ«´ÓÄãµÄ»úĞ¶ÔØÕû¸öXamarin£¬¿ÉÒ»Â·¸úËæÏÂÃæµÄÖ¸Òı¡£
-ÒªÁË½âÓĞ¹ØÊ¹ÓÃĞ¶ÔØ½Å±¾µÄ°ïÖú£¬¿ÉÌøµ½ÎÄµµ×îµ×²¿µÄĞ¶ÔØ½Å±¾²¿·Ö¡£
+##åœ¨Macä¸Šå¸è½½Xamarin
+é€šè¿‡å¯¼èˆªåˆ°ç›¸åº”ç« èŠ‚äº†è§£å¸è½½æ¯ä¸ªå•ç‹¬çš„äº§å“, æˆ–å¦‚æœä½ å¸Œæœ›å®Œå…¨ä»ä½ çš„æœºå¸è½½æ•´ä¸ªXamarinï¼Œå¯æŒ‰ç…§ä¸‹é¢çš„æŒ‡å¼•ã€‚
 
-###<a name="Uninstall-Xamarin-Studio"></a>Ğ¶ÔØXamarin Studio
-´ÓÄãËùMacÉÏĞ¶ÔØXamarin StudioµÄµÚÒ»²½£¬ÊÇ¶¨Î»µ½ÔÚ /Applications Ä¿Â¼ÖĞµÄXamarin Studio.appºÍ ½«ËüÍÏµ½·ÏÖ½Â¨¡£»òÕß, Äã¿ÉÒÔÓÒ»÷ºÍÑ¡Ôñ¡°ÒÆ¶¯µ½·ÏÖ½Â¨¡±£¬ÈçÏÂÍ¼ËùÊ¾£º
+è¦äº†è§£æœ‰å…³ä½¿ç”¨[å¸è½½è„šæœ¬](http://developer.xamarin.com/guides/cross-platform/getting_started/installation/uninstalling_xamarin/Resources/xamarin_uninstall.sh)çš„å¸®åŠ©ï¼Œå¯è·³åˆ°æ–‡æ¡£æœ€åº•éƒ¨çš„[ä½¿ç”¨å¸è½½è„šæœ¬](#Using_the_Uninstall_Script)éƒ¨åˆ†ã€‚
+
+###<a name="Uninstall-Xamarin-Studio"></a>å¸è½½Xamarin Studio
+ä»ä½ çš„Macä¸Šå¸è½½Xamarin Studioçš„ç¬¬ä¸€æ­¥ï¼Œæ‰¾åˆ°`/Applications` ç›®å½•ä¸­çš„`Xamarin Studio.app`å¹¶å°†å®ƒæ‹–åˆ°`åºŸçº¸ç¯“`ã€‚æˆ–è€…, ä½ å¯ä»¥å³å‡»å’Œé€‰æ‹©`ç§»åŠ¨åˆ°åºŸçº¸ç¯“`ï¼Œå¦‚ä¸‹å›¾æ‰€ç¤ºï¼š
 
 ![](image1.png)
 
-É¾³ıÕâ¸öapp×°À¦°óÒÆ³ıXamarin Studio, È»¶ø, »¹ÓĞÆäËüXamarinÏà¹ØµÄÎÄ¼şÈÔÒÅÁôÔÚÄãµÄÏµÍ³¡£
+ç§»é™¤è¿™ä¸ªappä¼šæ†ç»‘ç§»é™¤Xamarin Studio, ç„¶è€Œè¿˜æœ‰å…¶å®ƒXamarinç›¸å…³çš„æ–‡ä»¶ä»é—ç•™åœ¨ä½ çš„ç³»ç»Ÿã€‚
 
-ÒªÉ¾³ıXamarin StudioµÄËùÓĞºÛ¼£, ÔÚÖÕ¶ËÔËĞĞÒÔÏÂÃüÁî:
+è¦å®Œå…¨åˆ é™¤Xamarin Studioçš„æ‰€æœ‰ç—•è¿¹, åœ¨ç»ˆç«¯è¿è¡Œä»¥ä¸‹å‘½ä»¤:
 
 ```shell
-sudo rm -rf "/Applications/Xamarin Studio.app¡±
+sudo rm -rf "/Applications/Xamarin Studio.appâ€
 rm -rf ~/Library/Logs/XamarinStudio-*
 rm -rf ~/Library/XamarinStudio-*
 ```
 
-###<a name="Uninstall-Mono-SDK"></a>Ğ¶ÔØ Mono SDK (MDK)
-Mono ÊÇÒ»¸öMicrosoftµÄ .NET ¿ò¼ÜµÄ¿ªÔ´ÊµÏÖ£¬ºÍÊ¹ÓÃÔÚXamarin ËùÓĞ²úÆ·¡ª¡ªXamarin.iOS,¡¢Xamarin.AndroidºÍXamarin.Mac£¬ÒÔÔÊĞíÔÚÕâĞ©Æ½Ì¨ÉÏÓÃC# À´¿ª·¢.
+###<a name="Uninstall-Mono-SDK"></a>å¸è½½Mono SDK(MDK)
+Monoæ˜¯ä¸€ä¸ªMicrosoft .NETæ¡†æ¶çš„å¼€æºå®ç°ï¼Œå®ƒä½¿ç”¨åœ¨Xamarinæ‰€æœ‰äº§å“ä¸Š â€•â€• Xamarin.iOS,ã€Xamarin.Androidå’ŒXamarin.Macï¼Œä»¥å…è®¸åœ¨è¿™äº›å¹³å°ä¸Šç”¨ C# æ¥å¼€å‘.
 
-> ×¢Òâ: ÓĞXamarinÒÔÍâµÄÆäËûÓ¦ÓÃ³ÌĞòÒ²Ê¹ÓÃMono, ÈçUnity¡£ÔÚÉ¾³ıMonoÇ°ÇëÈ·ÈÏÃ»ÓĞÆäËü³ÌĞòÒÀÀµËü¡£
+> æ³¨æ„: æœ‰Xamarinä»¥å¤–çš„å…¶ä»–åº”ç”¨ç¨‹åºä¹Ÿä½¿ç”¨Mono, å¦‚Unityã€‚åœ¨åˆ é™¤Monoå‰è¯·ç¡®è®¤æ²¡æœ‰å…¶å®ƒç¨‹åºä¾èµ–å®ƒã€‚
 
-Òª´ÓÄãµÄ»úÆ÷ÒÆ³ıMono¿ò¼Ü£¬ÔÚÖÕ¶ËÔËĞĞÒÔÏÂÃüÁî£º
+è¦ä»ä½ çš„æœºå™¨ç§»é™¤Monoæ¡†æ¶ï¼Œåœ¨ç»ˆç«¯è¿è¡Œä»¥ä¸‹å‘½ä»¤ï¼š
 
 ```shell
 sudo rm -rf /Library/Frameworks/Mono.framework
 sudo pkgutil --forget com.xamarin.mono-MDK.pkg
 ```
 
-###<a name="Uninstall-Xamarin-Android"></a>Ğ¶ÔØ Xamarin.Android
-Xamarin.Android ÔÊĞíÄãÊ¹ÓÃXamarin StudioÄÚÖÃµÄC#»òÕßF#¿ª·¢Android¡£°²×°ºÍÊ¹ÓÃXamarin.AndroidÓĞĞí¶àĞèÇóÏî, ÈçAndroid SDKºÍJava SDK¡£ÄãÄÜÔÚ[ÊÖ¶¯°²×°Ö¸ÄÏ](#TODO)»ñµÃ¸ü¶à¹ØÓÚÕâĞ©ĞèÇó×é¼şµÄĞÅÏ¢¡£
+###<a name="Uninstall-Xamarin-Android"></a>å¸è½½ Xamarin.Android
+Xamarin.Android å…è®¸ä½ ä½¿ç”¨Xamarin Studioå†…ç½®çš„`C#`æˆ–è€…`F#`å¼€å‘Androidã€‚å®‰è£…å’Œä½¿ç”¨Xamarin.Androidæœ‰è®¸å¤šéœ€æ±‚é¡¹, å¦‚Android SDKå’ŒJava SDKã€‚ä½ èƒ½åœ¨[æ‰‹åŠ¨å®‰è£…æŒ‡å—](#TODO)è·å¾—æ›´å¤šå…³äºè¿™äº›éœ€æ±‚ç»„ä»¶çš„ä¿¡æ¯ã€‚
 
-Ê¹ÓÃÒÔÏÂÃüÁîÒÆ³ı Xamarin.Android:
+ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤ç§»é™¤ Xamarin.Android:
 
 ```shell
 sudo rm -rf /Developer/MonoDroid
@@ -61,17 +62,17 @@ rm -rf ~/Library/MonoAndroid
 sudo pkgutil --forget com.xamarin.android.pkg
 ```
 
-``Ğ¶ÔØ Android SDK and Java SDK``
-¿ª·¢AndroidÓ¦ÓÃ³ÌĞòĞèÒªAndroid SDK¡£Èç¹ûÄãÔÙÒ²²»Ïë¿ª·¢Android£¬Äã¿ÉÒÔĞ¶ÔØAndroid SDK: ¶¨Î»µ½ÔÚ ~/Library/Developer/Xamarin/ µÄÎÄ¼şºÍÒÆ³ıµ½À¬»øÏä, ÈçÏÂÍ¼ËùÊ¾£º
+####``å¸è½½ Android SDK å’Œ Java SDK``
+å¼€å‘Androidåº”ç”¨ç¨‹åºéœ€è¦Android SDKã€‚å¦‚æœä½ å†ä¹Ÿä¸æƒ³å¼€å‘Androidï¼Œä½ å¯ä»¥å¸è½½Android SDK: æ‰¾åˆ°`~/Library/Developer/Xamarin/` å¹¶å°†å…¶ç§»é™¤åˆ°åƒåœ¾ç®±, å¦‚ä¸‹å›¾æ‰€ç¤ºï¼š
 
 ![](image2.png)
 
-Java SDK (JDK) ²»ĞèÒªĞ¶ÔØ, ËüÒÑ¾­ÊÇMac OS XÖĞÔ¤ÖÃµÄ°ü¡£
+Java SDK (JDK) ä¸éœ€è¦å¸è½½, å®ƒå·²ç»æ˜¯Mac OS Xä¸­é¢„ç½®çš„åŒ…ã€‚
 
-###<a name="Uninstall-Xamarin-iOS"></a>Ğ¶ÔØ Xamarin.iOS
-Xamarin.iOSÔÊĞíÄãÔÚMacÉÏµÄXamarin StudioÖĞÊ¹ÓÃC#»òF#¿ª·¢iOSÓ¦ÓÃ³ÌĞò¡£Xamarin Build HostÒ²ÓÃ Xamarin.iOS×Ô¶¯°²×°£¬ÒÔÔÊĞíÔÚVisual StudioÖĞ¿ª·¢iOS¡£Òª´ÓÄãµÄ»úÆ÷Ğ¶ÔØ¶şÕß£¬°´ÒÔÏÂ²½Öè£º
+###<a name="Uninstall-Xamarin-iOS"></a>å¸è½½ Xamarin.iOS
+Xamarin.iOSå…è®¸ä½ åœ¨Macä¸Šçš„Xamarin Studioä¸­ä½¿ç”¨`C#`æˆ–`F#`å¼€å‘iOSåº”ç”¨ç¨‹åºã€‚Xamarin Build Hostä¹Ÿè‡ªåŠ¨ç”¨Xamarin.iOSå®‰è£…ï¼Œä»¥å…è®¸åœ¨Visual Studioä¸­å¼€å‘iOSã€‚è¦ä»ä½ çš„æœºå™¨å¸è½½äºŒè€…ï¼ŒæŒ‰ä»¥ä¸‹æ­¥éª¤ï¼š
 
-1.Ê¹ÓÃÒÔÏÂÖÕ¶ËÃüÁî´ÓÄãµÄÎÄ¼şÏµÍ³ÒÆ³ıËùÓĞXamarin.iOS ÎÄ¼ş£º 
+1.ä½¿ç”¨ä»¥ä¸‹ç»ˆç«¯å‘½ä»¤ä»ä½ çš„æ–‡ä»¶ç³»ç»Ÿç§»é™¤æ‰€æœ‰Xamarin.iOS æ–‡ä»¶ï¼š 
 
 ```shell
 rm -rf ~/Library/MonoTouch
@@ -79,54 +80,57 @@ rm -rf /Library/Frameworks/Xamarin.iOS.framework
 sudo pkgutil --forget com.xamarin.xamarin-ios-build-host.pkg
 ``` 
 
-2.Ğ¶ÔØ Mac Build Host¡ª¡ªÔËĞĞÒÔÏÂÖÕ¶ËÃüÁîÒÔÒÆ³ı Build Host Ó¦ÓÃ³ÌĞò£º
+2.å¸è½½Mac Build Host â€•â€• è¿è¡Œä»¥ä¸‹ç»ˆç«¯å‘½ä»¤ä»¥ç§»é™¤Build Hoståº”ç”¨ç¨‹åºï¼š
 
 ```shell
-rm -rf "/Applications/Xamarin.iOS Build Host.app¡±
+rm -rf "/Applications/Xamarin.iOS Build Host.appâ€
 ```
 
-3.Build Host ´¦Àí»òÆô¶¯ÈÎÎñ¿ÉÄÜ»¹ÔÚÔËĞĞ»òÔÚÕìÌıÌØ¶¨µÄ¶Ë¿Ú¡£Äã¿ÉÒÔÍ¨¹ıÔÚÖÕ¶ËÔËĞĞ launchctl list | grep com.xamarin.mtvs.buildserver ¼ì²éËûµÄ×´Ì¬¡£
+3.Build Hostå¤„ç†æˆ–å¯åŠ¨ä»»åŠ¡å¯èƒ½è¿˜åœ¨è¿è¡Œæˆ–åœ¨ä¾¦å¬ç‰¹å®šçš„ç«¯å£ã€‚ä½ å¯ä»¥é€šè¿‡åœ¨ç»ˆç«¯è¿è¡Œ `launchctl list | grep com.xamarin.mtvs.buildserver` æ£€æŸ¥ä»–çš„çŠ¶æ€ã€‚
 
 ```shell
 sudo launchctl unload /Library/LaunchAgents/com.xamarin.mtvs.buildserver.plist
 sudo rm -f /Library/LaunchAgents/com.xamarin.mtvs.buildserver.plist
 ```
 
-###<a name="Uninstall-Xamarin-Mac"></a>Ğ¶ÔØ Xamarin.Mac
+###<a name="Uninstall-Xamarin-Mac"></a>å¸è½½ Xamarin.Mac
 
-Ò»µ© Xamarin Studio ÒÑ±»³É¹¦Ğ¶ÔØ£¬Xamarin.Mac¿ÉÒÔÊ¹ÓÃÒÔÏÂ¶ş¸öÃüÁî´ÓÄãµÄ»úÆ÷ÒÆ³ı£º
+ä¸€æ—¦Xamarin Studioè¢«æˆåŠŸå¸è½½ï¼ŒXamarin.Macå¯ä»¥ä½¿ç”¨ä»¥ä¸‹äºŒä¸ªå‘½ä»¤ä»ä½ çš„æœºå™¨ç§»é™¤ï¼š
 
 ```shell
 rm -rf /Library/Frameworks/Xamarin.Mac.framework
 rm -rf $HOME/Library/Xamarin.Mac
 ```
 
-###Ê¹ÓÃĞ¶ÔØ½Å±¾
-Èç¹ûÄú¾ö¶¨Ìø¹ıÉÏÊö²½Öè,ÏëÒªÔËĞĞĞ¶ÔØ½Å±¾£¬ÄãÒª°´ÒÔÏÂ²½ÖèÔËĞĞËü£º
-1.ÏÂÔØĞ¶ÔØ½Å±¾£¬²¢¼ÇÏÂÏÂÔØÎ»ÖÃ¡£Ä¬ÈÏÇé¿öÏÂÊÇÔÚ /Downloads Ä¿Â¼¡£
-2.´ò¿ªÖÕ¶ËºÍÇĞ»»µ½°üº¬½Å±¾µÄÄ¿Â¼£¬ÊäÈë£º
-```
+###<a name="Using_the_Uninstall_Script"></a>ä½¿ç”¨å¸è½½è„šæœ¬
+å¦‚æœæ‚¨å†³å®šè·³è¿‡ä¸Šè¿°æ­¥éª¤,æƒ³è¦è¿è¡Œ[å¸è½½è„šæœ¬](http://developer.xamarin.com/guides/cross-platform/getting_started/installation/uninstalling_xamarin/Resources/xamarin_uninstall.sh)ï¼Œä½ è¦æŒ‰ä»¥ä¸‹æ­¥éª¤è¿è¡Œå®ƒï¼š
+
+1. ä¸‹è½½å¸è½½è„šæœ¬ï¼Œå¹¶è®°ä¸‹ä¸‹è½½ä½ç½®ã€‚é»˜è®¤æƒ…å†µä¸‹æ˜¯åœ¨ `/Downloads` ç›®å½•ã€‚
+2. æ‰“å¼€ç»ˆç«¯ï¼Œåˆ‡æ¢åˆ°åŒ…å«è„šæœ¬çš„ç›®å½•ï¼Œè¾“å…¥ï¼š
+```shell
 cd /location/of/file
 ```
-3.ÊäÈë pwd »á´òÓ¡¹¤×÷Ä¿Â¼ (¾ÍÊÇµ±Ç°ËùÔÚµÄÄÇ¸ö). ÄãÓ¦¸ÃÄÜ¹»¿´µ½½Å±¾ xamarin_uninstall.sh
-4.ÔËĞĞ½Å±¾:
+3. è¾“å…¥`pwd`ä¼šæ‰“å°å·¥ä½œç›®å½•(å°±æ˜¯å½“å‰æ‰€åœ¨çš„é‚£ä¸ª)ã€‚ä½ åº”è¯¥èƒ½å¤Ÿçœ‹åˆ°è„šæœ¬`xamarin_uninstall.sh`
+4. è¿è¡Œè„šæœ¬:
+```shell
 ./xamarin_uninstall.sh 
+```
 
-¾ÍÕâÑù¡£XamarinÏÖÔÚÓ¦¸Ã³É¹¦´ÓÄúµÄ¼ÆËã»úÉ¾³ı¡£
+å°±è¿™ä¹ˆå¤šäº†ã€‚Xamarinç°åœ¨åº”è¯¥æˆåŠŸä»æ‚¨çš„è®¡ç®—æœºåˆ é™¤ã€‚
 
 
-##<a name="Uninstalling-Xamarin-on-Windows"></a>´ÓWindowsĞ¶ÔØ Xamarin 
-Í¨¹ı¿ØÖÆÃæ°å¿ÉÒÔ´ÓÄúµÄWindows»úÆ÷ÉÏĞ¶ÔØXamarin¡£µ¼º½µ½³ÌĞòºÍ¹¦ÄÜ£¬»ò³ÌĞò > Ğ¶ÔØÒ»¸ö³ÌĞò£¬ÈçÏÂÍ¼ËùÊ¾£º
+##<a name="Uninstalling-Xamarin-on-Windows"></a>ä»Windowså¸è½½ Xamarin 
+é€šè¿‡ *æ§åˆ¶é¢æ¿* å¯ä»¥ä»æ‚¨çš„Windowsæœºå™¨ä¸Šå¸è½½Xamarinã€‚å¯¼èˆªåˆ° *ç¨‹åºå’ŒåŠŸèƒ½*ï¼Œæˆ– *ç¨‹åº > å¸è½½ä¸€ä¸ªç¨‹åº*ï¼Œå¦‚ä¸‹å›¾æ‰€ç¤ºï¼š
 
 ![](image3.png)
 
 ![](image4.png)
 
-ÒªĞ¶ÔØ Xamarin Studio£¬ÕÒµ½ÔÚ³ÌĞòÁĞ±íÖĞµÄ Xamarin Studio 5.x.x ºÍµã»÷Ğ¶ÔØ°´Å¥¡£ÒªĞ¶ÔØVisual StudioµÄXamarinÀ©Õ¹£¬ºÍ SDKs, ÕÒµ½³ÌĞòÁĞ±íÖĞµÄ XamarinºÍµã»÷Ğ¶ÔØ¡£ÈçÏÂÃæµÄ½ØÍ¼ÖĞËùÊ¾:
+è¦å¸è½½ Xamarin Studioï¼Œæ‰¾åˆ°åœ¨ç¨‹åºåˆ—è¡¨ä¸­çš„ Xamarin Studio 5.x.x å’Œç‚¹å‡»å¸è½½æŒ‰é’®ã€‚è¦å¸è½½Visual Studioçš„Xamarinæ‰©å±•å’ŒSDKs, æ‰¾åˆ°ç¨‹åºåˆ—è¡¨ä¸­çš„ Xamarinå’Œç‚¹å‡»å¸è½½ã€‚å¦‚ä¸‹é¢çš„æˆªå›¾ä¸­æ‰€ç¤º:
 
 ![](image5.png)
 
-ÒªÏë¸É¾»µÄÉ¾³ı£¬»¹ÓĞÒ»Ğ©ÄãÏëÒÆ³ıµÄ³ÌĞò£¬ÈçÏÂÃæµÄÁĞ±í£º
+è¦æƒ³å¹²å‡€çš„åˆ é™¤ï¼Œè¿™é‡Œè¿˜æœ‰ä¸€äº›ä½ éœ€è¦ç§»é™¤çš„ç¨‹åºï¼Œå¦‚ä¸‹åˆ—è¡¨ï¼š
 
 * Android SDK
 
@@ -140,10 +144,10 @@ cd /location/of/file
 
 ![](image8.png)
 
-* Java SDK (É¾³ıÕâ¸öÊ±ÒªĞ¡ĞÄ, ¿ÉÄÜ´æÔÚÆäËü³ÌĞòÒÀÀµËü)
+* Java SDK (åˆ é™¤è¿™ä¸ªæ—¶è¦å°å¿ƒ, å¯èƒ½æœ‰å…¶å®ƒç¨‹åºä¾èµ–å®ƒ)
 
 ![](image9.png)
 
 
-##Ğ¡½á
-ÔÚ±¾ÎÄÎÒÃÇ¿´µ½Í¨¹ıÊ¹ÓÃÖÕ¶ËÃüÁîÍêÈ«´ÓÄãµÄMacĞ¶ÔØXamarin£¬Ò²Í¨¹ı³ÌĞòºÍ¹¦ÄÜÑ¡Ïî´ÓÄãµÄWindows»úÆ÷ÖĞĞ¶ÔØXamarin¡£
+##å°ç»“
+åœ¨æœ¬æ–‡æˆ‘ä»¬çœ‹åˆ°é€šè¿‡ä½¿ç”¨ç»ˆç«¯å‘½ä»¤å®Œå…¨ä»ä½ çš„Macå¸è½½Xamarinï¼Œä¹Ÿå¯ä»¥é€šè¿‡ *ç¨‹åºå’ŒåŠŸèƒ½* é€‰é¡¹ä»ä½ çš„Windowsæœºå™¨ä¸­å¸è½½Xamarinã€‚

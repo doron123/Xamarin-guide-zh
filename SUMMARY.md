@@ -12,6 +12,18 @@
     * [移动应用开发生命周期简介](Cross_Platform/chapter1/05_Introduction_to_the_Mobile_SDLC.md)
     * [开始试用Xamarin](Cross_Platform/chapter1/06_Beginning_A_Xamarin_Trial.md)
     * [Visual Studio和Xamarin](Cross_Platform/chapter1/07_Visual_Studio_with_Xamarin.md)
+  * [应用程序基础]()
+  * [部署,测试和Metrics]()
+  * [持续集成]()
+  * [F#]()
+  * [高级]()
+  * [游戏开发]()
+  * [iOS和Mac]()
+  * [Xamarin.Forms]()
+  * [Xamarin Insights]()
+  * [Xamarin Sketches]()
+  * [Microsoft Azure]()
+  * [Windows]()
 * Android
 * iOS
 * Mac

@@ -199,7 +199,7 @@ Selecting an item in the result list navigates to that item in the editor.
 ###程序集浏览器
 Xamarin Studio 也包括一个程序集浏览器，用来导航到任何程序集的类型引用。可以从解决方案面板双击加载程序集到浏览器中。
 
-For example, the following screenshot shows the System assembly loaded in the Assembly Browser:
+举例, 下图显示了加载在程序集浏览器中的System assembly:
 
 
 

@@ -48,7 +48,7 @@ Xamarin提供了两个商业产品: Xamarin.iOS和Xamarin.Android。他们都建
 在这些情况下,Xamarin应用程序利用运行时自动处理一些事情，如内存分配, 垃圾收集,底层平台互操作,等等。
 
 ###MonoTouch.dll 和 Mono.Android.dll
-Xamarin applications是对称为Xamarin Mobile Profile的.NET BCL的子集的的构建。这个profile专门为移动应用程序创建，并打包入MonoTouch.dll和Mono.Android.dll(分别为iOS和Android)。这很像Silverlight (和Moonlight)应用程序是对Silverlight/Moonlight .NET Profile的构建。实际上,Xamarin Mobile profile相当于Silverlight 4.0 profile重新添加一堆BCL类。
+Xamarin 应用程序相对于叫做Xamarin Mobile Profile的一个.NET BCL的子集的的构建。这个profile专门为移动应用程序创建，并打包入MonoTouch.dll和Mono.Android.dll(分别为iOS和Android)。这很像Silverlight (和Moonlight)应用程序是对Silverlight/Moonlight .NET Profile的构建。实际上,Xamarin Mobile profile相当于Silverlight 4.0 profile重新添加一堆BCL类。
 
 有关可用程序集和类的完整列表, 查阅 [Xamarin.iOS 组合表](http://developer.xamarin.com/guides/ios/advanced_topics/assemblies) 和 [Xamarin.Android 组合表](http://developer.xamarin.com/guides/android/advanced_topics/assemblies)。
 

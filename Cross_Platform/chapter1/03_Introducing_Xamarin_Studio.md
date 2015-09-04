@@ -184,34 +184,31 @@ Xamarin Studio 包括统一搜索, 位于IDE的右上角, 搜索解决方案的�
 
 匹配的结果分为以下几个部分:
 
-* *Top Result* – 显示最匹配搜索字符串的结果。
+* *最优结果* – 显示最匹配搜索字符串的结果。
 * *解决方案* – 显示一个在解决方案内匹配类型的列表。
 * *文件* – 显示匹配搜索字符串的文件列表。
-* *Commands* – 显示一个搜索字符串的可用命令的列表。
+* *命令* – 显示一个搜索字符串的可用命令的列表。
 
 下图显示了在解决方案中搜索“app"的结果列表:
 
 ![](image18New.png)
 
-Selecting an item in the result list navigates to that item in the editor.
+选择在结果列表中的一个项目导航到该项目的编辑器界面。
 
 
 ###程序集浏览器
 Xamarin Studio 也包括一个程序集浏览器，用来导航到任何程序集的类型引用。可以从解决方案面板双击加载程序集到浏览器中。
 
-举例, 下图显示了加载在程序集浏览器中的System assembly:
+举例, 下图显示了加载在程序集浏览器中的系统程序集:
 
+![](image19New.png)
 
+####程序集搜索
+程序集浏览器也支持搜索与自动完成。例如, 在搜索框输入CAD会显示以下类型:
 
+![](image20New.png)
 
-####Assembly Search
-The Assembly Browser also supports search with auto-complete. For example, typing CAD in the search box displays the following types:
-
-
-
-The Assembly Browser is also integrated with the code editor, where selecting Go to declaration on a type that exists in a referenced assembly will navigate to that type in the Assembly Browser. For example, the following shows the Assembly Browser with the UIWindow loaded after it was selected in the code editor:
-
-
+程序集浏览器也与代码编辑器集成, where selecting Go to declaration on a type that exists in a referenced assembly will navigate to that type in the Assembly Browser. For example, the following shows the Assembly Browser with the UIWindow loaded after it was selected in the code editor:
 
 
 ###Debugging

@@ -208,92 +208,94 @@ Xamarin Studio 也包括一个程序集浏览器，用来导航到任何程序�
 
 ![](image20New.png)
 
-程序集浏览器也与代码编辑器集成, where selecting Go to declaration on a type that exists in a referenced assembly will navigate to that type in the Assembly Browser. For example, the following shows the Assembly Browser with the UIWindow loaded after it was selected in the code editor:
+程序集浏览器也与代码编辑器集成, 在类型上选择 *Go to declaration* 进入引用的程序集，会在程序集浏览器中导航到这个类型的位置。例如, 下面显示了加载到程序集浏览器中的 `UIWindow`程序集：
+
+![](image21New.png)
 
 
-###Debugging
-Xamarin Studio includes integrated debugging for both iOS and Android projects on simulators and emulators, as well as on devices. The debugger includes the following windows:
+###调试
+Xamarin Studio包括集成iOS和Android项目模拟器和仿真器上调试, 以及在设备上。调试器包括以下窗口:
 
-Watch – Allows variables to be added for inspecting values.
-Locals – Inspects values of locally declared variables.
-Breakpoints – Manage breakpoints in the project.
-Threads – View running threads.
-Call Stack – Lists and navigates the call stack.
-Immediate – Evaluation of expressions.
-The following image shows the debugger stopped at a breakpoint with the inline watch popup displayed when hovering over a variable:
+* Watch – 允许添加用于检查变量的值。
+* Locals – 检查局部声明的变量的值。
+* Breakpoints – 在项目中管理断点。
+* Threads – 查看正在运行的线程。
+* Call Stack – 调用堆栈的列表和导航。
+* Immediate – 表达式求值。
 
+下图显示了调试器在一个断点暂停，当鼠标悬停在变量上时显示一个内联的观察窗口:
 
+![](image22New.png)
 
-Xamarin Studio's debugger contains rich visualizers for special types such as strings, colors, URLs as well as the sizes, co-ordinates and bézier curves.
+Xamarin Studio的调试器包含特定类型的丰富的可视化工具，如字符串, 颜色, URLs以及尺寸大小, 座标和贝塞尔曲线.
 
-Clicking on the preview icon next to a name, shows the value of that property. In the image below, the inspector shows the value, and a preview of the title color of our button:
+单击名称旁边的预览图标, 会显示属性的值。在下图检查显示值，并在预览我们的按钮的标题颜色:
 
+![](image22a.png)
 
-
-For more information on the debugger visit to Debugger guides.
-
-
-Source Control Integration
-Xamarin Studio integrates with Git and Subversion source control systems. Projects under source control are denoted with an annotation on their icons in the Solution Pad, as shown below:
+要了解更多关于调试器的信息，查阅[调试器](http://developer.xamarin.com/guides/cross-platform/deployment,_testing,_and_metrics/debugging_with_xamarin/)指南。
 
 
+###集成源码控制
+Xamarin Studio 集成Git和Subversion源码控制系统。源代码管理下的项目，会在解决方案面板中的项目中加上一个图标进行标注，如下图所示:
 
-For a project under source control, the context menu of the item in the Solution Pad will have its Version Control menu enabled, showing various commands, as shown below:
+![](image23New.png)
 
+一个项目在源代码控制之下时, 他们在解决方案面板中的上下文菜单会启用一个 `Version Control` 菜单，显示各种命令，如下所示:
 
+![](image24New.png)
 
-Also, the main menu’s Version Control menu includes a variety of additional commands for working with source control:
+同样, 主菜单的 `Version Control`菜单也包括使用源代码管理的各种附加命令:
 
+![](image25New.png)
 
+####差异, 历史和合并
+要检查所选文件的差异, 更改历史记录和执行合并, 编辑器底部区域提供了几种按钮。例如, 以下屏幕截图显示本地源文件和最后提交的版本文件的差异:
 
-
-Differences, History and Merging
-To inspect differences in the selected file, change history and perform merges, several buttons at the bottom of the editor area are available. For example, the following screenshot shows the differences between a local source file and the latest committed version:
-
-
-
-
-Native Platform Integration
-Xamarin Studio features integration with native platform tools for both iOS and Android. This allows using various code-signing, deployment, and diagnostics tools.
-
-
-Tools Menu
-The following screenshot shows the iOS Tools menu in Xamarin Studio:
+![](image26New.png)
 
 
+###原生平台集成
+Xamarin Studio 集成iOS和Android原生平台工具的功能。让我们可以用各种代码签名, 部署和诊断工具.
 
-Under the Tools menu, there are several items that launch native platform tools, including:
+####工具菜单
+以下屏幕截图显示在Xamarin Studio中的iOS 工具菜单：
 
-Instruments – iOS profiling and diagnostics tool.
-Application Loader – iOS utility that assists in preparing apps for sale in the iTunes App Store.
-Google Emulator Manager – Android utility to manage emulators.
-Android SDK Manager – Android utility to install Android SDKs
+![](image27New.png)
 
-Info.plist [iOS and Mac only]
-In addition to source code editing, the tabbed interface includes support for certain platform specific files. For example, when opening an Info.plist file, which is used by iOS applications to store various configuration data, the following user interface is presented to allow easy editing of the file:
+在工具菜单下面, 有几个选项可以启动原生平台工具, 包括:
 
+* Instruments – iOS 分析和诊断工具。
+* Application Loader – iOS 实用工具，协助准备在iTunes应用程序商店出售应用程序。
+* Google Emulator Manager – Android 用来管理仿真器的实用程序。
+* Android SDK Manager – Android 用来安装 Android SDK的实用程序。
 
+####Info.plist **（仅在iOS和Mac）**
+除了源代码编辑, 选项卡式界面包括对某些特定于平台的文件的支持。例如, 当打开一个 `Info.plist`文件, 这是iOS应用程序用于存储各种配置数据的, 下面的用户界面便于文件的编辑:
 
-iOS Designer
-The iOS Designer is fully integrated with Xamarin studio and enables visual editing of Storyboard files. The entire user interface can be built using drag-and-drop functionality between the Toolbox and Design Surface, while using a much more intuative approach to handling events. The iOS Designer also supports custom controls with the added benefit of design-time rendering.
+![](image28New.png)
 
+####iOS 设计器
+iOS设计器是完全整成在 Xamarin studio，并可视化编辑Storyboard（故事板）文件。可以使用工具箱拖放功能和设计界面,而使用更多方法处理事件。iOS设计器也支持自定义控件，还有设计时实现渲染的好处。
 
+![](image30New.png)
 
-For more information on using the iOS Designer, refer to the Designer documents.
-
-
-Android Designer
-For Android applications, Xamarin Studio includes its own designer, which works with Android .axml files to visually construct user interfaces. Xamarin Studio will open these files in its Android designer, as shown below:
-
-
-
-For more information on the Android designer see the Designer Overview document.
-
-
-Release Notes
-The latest release notes for all installed Xamarin products can all be accessed via the Help menu bar item in Xamarin Studio. This will open a link in your browser:
+要了解更多使用iOS设计器的信息，参考[设计器](http://developer.xamarin.com/guides/ios/user_interface/designer)文档。
 
 
+####Android 设计器
+对于Android应用程序, Xamarin Studio包括它自己的设计器, 使用Android .axml 文件来可视化地构建用户界面。Xamarin Studio 将打开这些文件在其 Android 设计器,如下所示:
 
-Summary
-This document presented various parts of Xamarin Studio. It showed the areas of the IDE used for file management, such as the Solution Pad and Version Control integration. It also exhibited the rich source code editor, search, code completion, and code navigation features that make working with a complex code base a breeze. Finally, it introduced features for integrating with native platform tools on both iOS and Android.
+![](image31New.png)
+
+要了解更多使用Android设计器的信息，参阅[设计器](http://docs.xamarin.com/Android/Guides/User_Interface/Designer_Overview)概述文档。
+
+
+####发布说明
+所有已安装的Xamarin产品的最新释放说明都可以通过Xamarin Studio帮助菜单栏中的项目进行访问。这将在您的浏览器中打开链接:
+
+![](image32New.png)
+
+
+##小结
+该文档介绍了Xamarin Studio的各个部分。展示IDE文件管理的几个领域, 如解决方案面板和版本控制集成。也展示了丰富的源码编辑器, 搜索, 代码完成, 和代码导航功能可以处理复杂的代码。最后, 介绍了集成的原生平台工具的功能。
